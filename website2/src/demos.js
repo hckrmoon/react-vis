@@ -1,3 +1,7 @@
-import * as demos from '../../showcase';
+import {showCase} from '../../showcase';
+import * as ShowcaseIndex from '../../showcase/showcase-index';
 
-export default demos;
+export default {
+  ...showCase,
+  ...ShowcaseIndex,
+};
