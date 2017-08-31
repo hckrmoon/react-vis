@@ -1,0 +1,17 @@
+{
+  "name": "React-vis",
+  "version": "1.0.0",
+  "description": "A composable charting library",
+  "main": "index.js",
+  "scripts": {
+    "start": "ocular start",
+    "build": "ocular build",
+    "lint": "ocular lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ocular": "^0.1.11"
+  }
+}
