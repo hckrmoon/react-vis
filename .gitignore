@@ -10,11 +10,4 @@ npm-debug.log*
 .idea/
 public/
 
-# gh-pages deploy
 /index.html
-bundle-*.js
-styles-*.css
-favicon.ico
-__offline_serviceworker
-/images/
-/fonts/
