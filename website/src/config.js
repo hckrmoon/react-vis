@@ -21,10 +21,12 @@ export const HOME_BULLETS = [{
   img: 'images/icon-layers.svg'
 }, {
   text: 'Expressive',
-  desc: 'Handles a large range of different charts, from area charts to treemaps'
+  desc: 'Handles a large range of different charts, from area charts to treemaps',
+  img: 'images/icon-chart.svg'
 }, {
   text: 'Deeply customizable',
-  desc: 'Sensible defaults, yet everything can be modified'
+  desc: 'Sensible defaults, yet everything can be modified',
+  img: 'images/icon-custom.svg'
 }, {
   text: 'Industry-strong',
   desc: 'Born to support the many internal tools at Uber',
