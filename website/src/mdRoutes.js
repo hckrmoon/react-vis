@@ -1,5 +1,3 @@
-import intro from '../../docs/markdown/introduction.md';
-
 import codepen from '../../docs/markdown/getting-started/react-vis-in-codepen.md';
 import install from '../../docs/markdown/getting-started/installing-react-vis.md';
 import newProject from '../../docs/markdown/getting-started/new-react-vis-project.md';
@@ -119,9 +117,6 @@ export default [{
   name: 'Documentation',
   path: '/documentation',
   data: [{
-    name: 'Introduction',
-    markdown: intro,
-  }, {
     name: 'Getting Started',
     children: [{
       name: 'React-vis in codepen',
