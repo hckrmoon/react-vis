@@ -1,3 +1,9 @@
+import React from 'react';
+
+import demos from 'demos';
+
+const {ComplexChart, StreamgraphExample} = demos;
+
 export const PROJECT_TYPE = 'github';
 
 export const PROJECT_NAME = 'React-vis';
@@ -9,7 +15,16 @@ export const PROJECTS = {};
 
 export const HOME_HEADING = 'A composable charting library';
 
-export const HOME_RIGHT = null;
+export const HOME_RIGHT = (
+  <div>
+    <div className="m-bottom">
+      <ComplexChart forFrontPage />
+    </div>
+    <div>
+      <StreamgraphExample forFrontPage />
+    </div>
+  </div>
+);
 
 export const HOME_BULLETS = [{
   text: 'React Consistent',
