@@ -5,10 +5,16 @@ coverage/
 dist/
 es/
 
-/index.html
-bundle.*
 npm-debug.log*
 .DS_Store
 .idea/
 public/
-docs-dist/
+
+# gh-pages deploy
+/index.html
+bundle-*.js
+styles-*.css
+favicon.ico
+__offline_serviceworker
+/images/
+/fonts/

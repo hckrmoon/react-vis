@@ -20,7 +20,7 @@
     "email": "visualization@uber.com"
   },
   "scripts": {
-    "docs": "(cd website && npm run build && cp bundle.* .. && cd .. && git checkout gh-pages && git commit -am 'Upgrade docs' && git push && git checkout master)",
+    "docs": "(cd website && npm run build && mv dist/* .. && cd .. && git checkout gh-pages && git commit -am 'Upgrade docs' && git push && git checkout master)",
     "clean": "rm -rf dist es bundle.* index.html && mkdir dist es",
     "build:browser": "browserify src/index.js -t [ babelify ] --standalone reactVis | uglifyjs > dist/dist.min.js",
     "build": "npm run clean && babel src -d dist --copy-files && BABEL_ENV=es babel src -d es --copy-files && node-sass src/main.scss dist/style.css --output-style compressed && npm run build:browser",
