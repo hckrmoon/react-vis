@@ -13,5 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "ocular": "^0.1.18"
+  },
+  "dependencies": {
+    "d3-force": "^1.0.6",
+    "d3-random": "^1.1.0"
   }
 }

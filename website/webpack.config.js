@@ -9,8 +9,7 @@ module.exports = {
   resolve: {
     modules: [
       resolve(__dirname, '../src'),
-      resolve(__dirname, '../node_modules'),
-      resolve(__dirname, '../showcase/node_modules')
+      resolve(__dirname, '../node_modules')
     ],
 
     alias: {
