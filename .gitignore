@@ -2,9 +2,8 @@ node_modules/
 .sass-cache/
 .nyc_output/
 coverage/
+dist/
 es/
-
-/dist/
 
 npm-debug.log*
 .DS_Store
