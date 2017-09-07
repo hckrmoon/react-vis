@@ -9,6 +9,6 @@ module.exports = {
     content: 'A composable charting library'
   }],
 
-  scripts: ['https://apercu.github.io/react-vis/redirect.js']
+  scripts: ['https://uber.github.io/react-vis/redirect.js']
 
 };
