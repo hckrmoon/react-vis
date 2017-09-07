@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ocular": "^0.1.18"
+    "ocular": "^0.2.0"
   },
   "dependencies": {
     "d3-force": "^1.0.6",
