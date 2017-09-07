@@ -49,3 +49,5 @@ export const HOME_BULLETS = [{
 }];
 
 export const ADDITIONAL_LINKS = [];
+
+export const BASENAME = '/react-vis';
