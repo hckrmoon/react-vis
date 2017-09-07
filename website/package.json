@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ocular start",
-    "build": "ocular build",
+    "build": "rm -rf dist && ocular build",
     "lint": "ocular lint"
   },
   "keywords": [],
