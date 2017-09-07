@@ -6,7 +6,12 @@ module.exports = {
 
   meta: [{
     name: 'description',
-    content: 'A composable charting library',
+    content: 'A composable charting library'
   }],
+
+  scripts: [{
+    src: './redirect.js',
+    type: 'text/javascript'
+  }]
 
 };
